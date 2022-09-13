@@ -1,0 +1,31 @@
+nav li {
+    list-style-type: none;
+}
+
+header {
+    padding: 1em;
+    background-color: lightgray;    
+    text-align: center;
+}
+header span {
+    font-family: 'Brush Script MT';
+    font-size: 3em;
+}
+footer {
+    padding: 1rem;
+    background-color:  lightgray;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+section#rating .picture {
+    width: 300px;
+}
+
+form {
+    border: 1px solid black;
+    text-align: center;
+}
