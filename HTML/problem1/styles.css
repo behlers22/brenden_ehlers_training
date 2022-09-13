@@ -4,7 +4,7 @@ nav li {
 
 header {
     padding: 1em;
-    background-color: lightgray;    
+    background-color: green;    
     text-align: center;
 }
 header span {
@@ -13,7 +13,7 @@ header span {
 }
 footer {
     padding: 1rem;
-    background-color:  lightgray;
+    background-color:  green;
     text-align: center;
 }
 
