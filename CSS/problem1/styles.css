@@ -1,0 +1,100 @@
+html {
+    font-size: 16px;
+}
+header {
+    font-size: 3rem;
+}
+footer {
+    font-size: 1rem;
+}
+section {
+    font-size: 1rem;
+}
+nav li {
+    list-style-type: none;
+}
+/* Specificity Exmaple */
+/* 1-0-2 */
+li#active a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* 0-0-3 */
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+header, footer {
+    padding: 0.5em;
+    background-color: green;    
+    text-align: center;
+}
+header span {
+    font-family: 'Brush Script MT';
+    font-size: 1em;
+}
+figure {
+    text-align: center;
+}
+/* Specificity Exmaple */
+/* 1-0-0 */
+#home {
+    border: 1px dashed black;
+}
+/* 1-0-1 */
+section#feedback-form {
+    text-align: center;
+}
+/* 0-0-1 */
+section {
+    border: 1px solid black;
+    margin: 1em;
+    text-align: start;
+}
+section#rating .picture {
+    width: 300px;
+}
+/* Specificity example */
+/* 0-1-1 */
+p.copyright {
+    font-weight: bold;
+    font-size: 0.75em; 
+}
+/* 0-0-1 */
+p {
+    font-size: 1em
+}
+aside#infobox {
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+}
+figure#little-picture {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+figure#little-picture img {
+    width: 100px;
+    border-radius: 100%;
+}
+aside#absolute {
+    position: absolute;
+    right: 10px;
+    border: 1px solid black;
+    top: 25%;
+}
+aside#relative {
+    position: relative;
+    left: 100px;
+}
+.flexbox {
+    display: flex;
+}
+.flexbox#fb-1 {
+    flex-flow: row-reverse nowrap;
+}
+.flexbox#fb-2 {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
