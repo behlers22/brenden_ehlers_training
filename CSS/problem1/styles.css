@@ -97,4 +97,8 @@ aside#relative {
 .flexbox#fb-2 {
     flex-flow: column nowrap;
     justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    vertical-align: bottom;
 }

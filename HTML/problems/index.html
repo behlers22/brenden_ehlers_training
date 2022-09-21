@@ -10,8 +10,8 @@
             <span>The Mongoose Website</span>
         </header>
         <main role="main">
-            <section id="home">
-                <h><h1>Mongeese: The Where And The What</h1></h>
+            <section id="home"> 
+                <h1>Mongeese: The Where And The What</h1>
                 <p>Table of Contents</p>
                 <nav>
                     <ul>
@@ -41,7 +41,7 @@
                 </p>
             </section>
             <section id="characteristics">
-                <h><h2>Characteristics of Mongeese</h2></h>
+                <h2>Characteristics of Mongeese</h2>
                 <p>
                     Mongooses have long faces and bodies, small, rounded ears, short legs, and long, tapering tails. Most are brindled or grizzly; a few have strongly marked coats which bear a striking resemblance to mustelids. Their nonretractile claws are used primarily for digging. Mongooses, much like goats, have narrow, ovular pupils.
                 </p>
@@ -50,7 +50,7 @@
                 </p>
             </section>
             <section id="location">
-                <h><h3>Where are they located?</h3></h>
+                <h3>Where are they located?</h3>
                 <figure>
                     <img src="./images/location.png" alt="Map of where mongeese are located" />
                     <p>
@@ -59,7 +59,7 @@
                 </figure>
             </section>
             <section id="diet">
-                <h><h4>Diet</h4></h>
+                <h4>Diet</h4>
                 <p>
                     Mongooses mostly feed on insects, crabs, earthworms, lizards, birds, and rodents. However, they also eat eggs and carrion.
                 </p>
@@ -69,7 +69,7 @@
 
             </section>
             <section id="cultural-significance">
-                <h><h5>Cultural Significance of the Mongoose</h5></h>
+                <h5>Cultural Significance of the Mongoose</h5>
                 <p>
                     In ancient Mesopotamia, mongooses were sacred to the deity Ninkilim, who was conflated with Ningirama, a deity of magic who was invoked for protection against serpents. According to a Babylonian popular saying, when a mouse fled from a mongoose into a serpent's hole, it announced, "I bring you greetings from the snake-charmer!" A creature resembling a mongoose also appears in Old Babylonian glyptic art, but its significance is not known.
                 </p>
@@ -84,7 +84,7 @@
                 </p>
             </section>
             <section id="rating">
-                <h><h6>Rating the Cuteness of Mongeese</h6></h>
+                <h6>Rating the Cuteness of Mongeese</h6>
                 <table>
                     <thead>
                         <tr>
@@ -97,7 +97,11 @@
                         <tr>
                             <td>Yellow Mongoose</td>
                             <td>
-                                <img class="picture" src="./images/yellow-mongoose.png" alt="picture of a yellow mongoose" />
+                                <img 
+                                    class="picture" 
+                                    src="./images/yellow-mongoose.png" 
+                                    alt="picture of a yellow mongoose" 
+                                />
                             </td>
                             <td>10</td>
                         </tr>
@@ -119,7 +123,7 @@
                 </table>
             </section>
             <section id="feedback-form">
-                <h><h3>Give us some feedback!</h3></h>
+                <h3>Give us some feedback!</h3>
                 <form>
                     <div>
                         <label for="name">Name:</label>
@@ -143,35 +147,36 @@
                     </div>
                     <div>
                         <label for="selection-rating">How would you rate your selection?</label>
-                        <div id="selection-rating">
-                            <input type="radio" value="1" id="1" />
+                        <fieldset id="selection-rating">
+                            <input name="rating" type="radio" value="1" id="1" />
                             <label for="1">1</label>
-                            <input type="radio" value="2" id="2" />
+                            <input name="rating" type="radio" value="2" id="2" />
                             <label for="2">2</label>
-                            <input type="radio" value="3" id="3" />
+                            <input name="rating" type="radio" value="3" id="3" />
                             <label for="3">3</label>
-                            <input type="radio" value="4" id="4" />
+                            <input name="rating" type="radio" value="4" id="4" />
                             <label for="4">4</label>
-                            <input type="radio" value="5" id="5" />
+                            <input name="rating" type="radio" value="5" id="5" />
                             <label for="5">5</label>
-                            <input type="radio" value="6" id="6" />
+                            <input name="rating" type="radio" value="6" id="6" />
                             <label for="6">6</label>
-                            <input type="radio" value="7" id="7" />
+                            <input name="rating" type="radio" value="7" id="7" />
                             <label for="7">7</label>
-                            <input type="radio" value="8" id="8" />
+                            <input name="rating" type="radio" value="8" id="8" />
                             <label for="8">8</label>
-                            <input type="radio" value="9" id="9" />
+                            <input name="rating" type="radio" value="9" id="9" />
                             <label for="9">9</label>
-                            <input type="radio" value="10" id="10" />
+                            <input name="rating" type="radio" value="10" id="10" />
                             <label for="10">10</label>
-                        </div>
+                        </fieldset>
                     </div>
-                    <submit><button>Send Feedback!</button></submit>
+                    <input type="submit" value="Send Feedback!" />
                 </form>
             </section>
-            <p>Data sourced from <a href='https://en.wikipedia.org/wiki/Mongoose' target="_blank">Wikipedia</a></p>
+            <p>Data sourced from <a href="https://en.wikipedia.org/wiki/Mongoose" target="_blank">Wikipedia</a></p>
         </main>
         <footer>
+            <a href="./other.html">this is a secret link</a>
             <span>Copyright © 2022</span>
         </footer>
     </body>
