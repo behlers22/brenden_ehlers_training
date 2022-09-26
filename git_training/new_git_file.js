@@ -1,8 +1,8 @@
-let list = ['Git', 'is','totally super extra awesome'];
+let list = ['Git', 'is','totally radical','bruh'];
 let acronym = '';
 
 list.forEach(listItem => {
     acronym += listItem[0]
 })
-
-return acronym;
+// Git
+console.log(acronym)
