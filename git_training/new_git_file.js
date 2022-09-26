@@ -1,4 +1,4 @@
-let list = ['Git', 'is','totally cool'];
+let list = ['Git', 'is','totally super extra awesome'];
 let acronym = '';
 
 list.forEach(listItem => {
